@@ -1,0 +1,201 @@
+/*
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+    background-color: aqua;
+   font-weight: bold;
+  
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column-reverse;
+   color: rgb(52, 20, 234);
+   text-align: center;
+  
+
+    
+    
+}
+.ti{
+    background-color: rgb(44, 199, 191);
+}
+
+.container {
+    background-color: rgb(26, 84, 192);
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    background-color: rgb(55, 96, 173);
+    display: flex;
+    
+}
+
+
+.footer {
+    background-color: #141414;
+    color: rgb(247, 247, 248);
+    padding: 20px 0;
+}
+.contacto {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.image {
+    background-origin: #fff;
+    border:;
+}
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: #222;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: rgb(0, 213, 255) ;
+}
+.nav-link:hover {
+    color: rgb(0, 242, 255) ;
+}
+.hero {
+    background: url('Baner.png') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(52, 20, 234);
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.btn-gold {
+    background-color: rgb(26, 187, 215);
+    color: rgba(248, 237, 237, 0.866);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-gold:hover {
+    background-color: rgb(28, 69, 165);
+    color: rgb(255, 255, 255);
+}
+.footer {
+    background-color: #222;
+    color: rgb(247, 247, 248);
+    padding: 20px 0;
+}
+.contacto {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+</style>
+
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del encabezado */
+header {
+    background: hwb(195 64% 34%);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos del menú de navegación */
+.menu nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Estilos del contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    background: #ffffff;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background: hsl(210, 2%, 63%);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para los títulos */
+h2 {
+    color: #35424a;
+}
+
+/* Estilos para el texto */
+p {
+    color: hsl(0, 1%, 18%);
+}
+
+/* Estilos para la clase text-center */
+.text-center {
+    text-align: center;
+}
